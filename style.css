@@ -23,13 +23,6 @@ body, html {
     margin-top: 20px; /* Adjust the space between logo and text */
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .launch-message {
-        font-size: 1.5em;
-    }
-}
-
 /* Desktop screens */
 @media (min-width: 768px) {
     .logo {
