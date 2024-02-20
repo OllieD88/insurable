@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0; /* Feel free to change the background color */
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.launch-message {
+    font-weight: bold;
+    font-size: 2em; /* Adjust based on your preference */
+    margin-top: 20px; /* Adjust the space between logo and text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .launch-message {
+        font-size: 1.5em;
+    }
+}
